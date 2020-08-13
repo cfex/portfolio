@@ -1,0 +1,40 @@
+.about {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 15px;
+}
+.about p {
+  padding: 10px;
+  font-size: 16px;
+  color: #2dbad6;
+}
+.about .about-text {
+  margin-right: 0.8rem;
+  color: #72cfc1;
+}
+.about .bracket {
+  color: #fff;
+}
+.about .indent {
+  margin-left: 25px;
+}
+.about .engines {
+  margin-left: 30px;
+  color: #2dbad6;
+}
+.about .dep {
+  margin-left: 50px;
+}
+.about .accomplishment {
+  color: #2dbad6;
+  margin-left: 75px;
+}
+.about a {
+  color: #1b9db8;
+  text-decoration: underline;
+}
+.about a:hover {
+  color: #057f97;
+}
+
+/*# sourceMappingURL=about.css.map */

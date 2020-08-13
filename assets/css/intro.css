@@ -1,0 +1,30 @@
+.intro {
+  margin-top: 8%;
+  text-align: left;
+  padding: 20px;
+}
+.intro .name {
+  font-size: 3rem;
+  color: #3bc9b6;
+}
+.intro .title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.intro .personality {
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+.intro .personality table {
+  font-size: 20px;
+}
+.intro .personality table td {
+  padding: 10px;
+}
+.intro .personality img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=intro.css.map */

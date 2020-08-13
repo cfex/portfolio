@@ -1,0 +1,168 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #171f34;
+  color: #fff;
+}
+body a {
+  text-decoration: none;
+  color: #1b9db8;
+}
+body a:hover {
+  color: #057f97;
+}
+
+.intro {
+  margin-top: 8%;
+  text-align: left;
+  padding: 20px;
+}
+.intro .name {
+  font-size: 3rem;
+  color: #3bc9b6;
+}
+.intro .title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.intro .personality {
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+.intro .personality table {
+  font-size: 20px;
+}
+.intro .personality table td {
+  padding: 10px;
+}
+.intro .personality img {
+  width: 30px;
+  height: 30px;
+}
+
+.about {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 15px;
+}
+.about p {
+  padding: 10px;
+  font-size: 16px;
+  color: #2dbad6;
+}
+.about .about-text {
+  margin-right: 0.8rem;
+  color: #72cfc1;
+}
+.about .bracket {
+  color: #fff;
+}
+.about .indent {
+  margin-left: 25px;
+}
+.about .engines {
+  margin-left: 30px;
+  color: #2dbad6;
+}
+.about .dep {
+  margin-left: 50px;
+}
+.about .accomplishment {
+  color: #2dbad6;
+  margin-left: 75px;
+}
+.about a {
+  color: #1b9db8;
+  text-decoration: underline;
+}
+.about a:hover {
+  color: #057f97;
+}
+
+.sidebar {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.sidebar a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar a:hover {
+  color: #171f34;
+  background-color: #057f97;
+}
+
+.testimonials {
+  margin-top: 10%;
+}
+.testimonials .card {
+  text-align: center;
+  height: 330px;
+  margin-top: 25px;
+  background-color: transparent;
+  border-top: 0;
+}
+.testimonials .card-body {
+  padding: 10px;
+}
+.testimonials .card-title {
+  margin: 0;
+}
+.testimonials .card-text {
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+}
+.testimonials .avatar {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.testimonials .avatar img {
+  background-color: #057f97;
+  position: absolute;
+  width: 100%;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  bottom: 20%;
+  display: block;
+}
+.testimonials .carousel-control-next-icon {
+  display: none;
+}
+.testimonials .carousel-control-prev-icon {
+  display: none;
+}
+
+.description {
+  margin-top: 5%;
+}
+.description .description-text p {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.description .description-text .terms {
+  color: #3bc9b6;
+}
+.description .description-image {
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 50%;
+  width: 200px;
+  border: 3px solid #057f97;
+}
+.description .description-image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
