@@ -1,17 +1,21 @@
-/* Error: Undefined variable.
- *    ,
- * 17 |         color: $background-color
- *    |                ^^^^^^^^^^^^^^^^^
- *    '
- *   assets\sass\sidebar.sass 17:16  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 17 \2502          color: $background-color\d\a    \2502                 ^^^^^^^^^^^^^^^^^\a    \2575 \a   assets\\sass\\sidebar.sass 17:16  root stylesheet";
+.sidebar {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 3;
 }
+.sidebar a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar a:hover {
+  color: #171f34;
+  background-color: #057f97;
+}
+
+/*# sourceMappingURL=sidebar.css.map */
