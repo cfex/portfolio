@@ -20,6 +20,7 @@
   font-size: 20px;
 }
 .intro .personality table td {
+  margin-left: 0;
   padding: 10px;
 }
 .intro .personality img {

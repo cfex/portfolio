@@ -33,6 +33,7 @@ body a:hover {
   font-size: 20px;
 }
 .intro .personality table td {
+  margin-left: 0;
   padding: 10px;
 }
 .intro .personality img {
@@ -41,7 +42,7 @@ body a:hover {
 }
 
 .about {
-  margin-top: 15px;
+  margin-top: 30px;
   text-align: left;
   font-size: 15px;
 }
