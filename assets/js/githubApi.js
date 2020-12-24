@@ -7,9 +7,7 @@ function fetchReposFromGithub() {
     httpRequest.onload = function () {
         const data = JSON.parse(this.response);
         let currentDate = new Date();
-
         let arr = data.sort((a, b) => a.pushed_at > b.pushed_at ? -1 : 1);
-        console.log(arr);
         let repos = document.getElementById("carouselInner");
 
         for (let i = 0; i < arr.length; i++) {
