@@ -1,203 +1,228 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
       shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
-    <title>Jevtić Nenad</title>
-  </head>
-  <body>
-    <div class="sidebar">
-      <a href="https://www.facebook.com/jevta.takomezovu/" target="_blank" class="facebook"><i class="fa fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/nnd.j" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/nenad-jevti%C4%87-706774133/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      <a href="https://github.com/cfex" target="_blank" class="github"><i class="fa fa-github"></i></a>
-      <a href="./cv/Jevtić Nenad .pdf" download><i class="fa fa-download"></i></a>
-    </div>
-    <div class="container-fluid">
-      <div class="container">
-          <div class="row">
-            <div class="col intro">            
-              <h1>
-                hi there. I'm <span class="name">nenad</span><br>
-              </h1>
-              <hr>
-              <p class="title">junior software developer</p>
-              <div class="personality">
-                <table>
-                  <tr>
-                    <td><img src="./images/plus.svg" alt="+">
-                      fast learner
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><img src="./images/plus.svg" alt="+">
-                      resourceful
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><img src="./images/plus.svg" alt="+">
-                      persistent
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><img src="./images/plus.svg" alt="+">
-                      adaptive
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><img src="./images/plus.svg" alt="+">
-                      reliable
-                    </td>
-                  </tr>
-                </table>
-              
-            </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+  <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+  <script src="./assets/js/githubApi.js"></script>
+  <title>Jevtić Nenad</title>
+</head>
+<body>
+  <script>
+    fetchReposFromGithub();
+  </script>
+  <div class="sidebar">
+    <a href="https://www.instagram.com/nnd.j" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/nenad-jevti%C4%87-706774133/" target="_blank" class="linkedin"><i
+        class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/cfex" target="_blank" class="github"><i class="fa fa-github"></i></a>
+    <a href="./cv/JevticNenad.pdf" download><i class="fa fa-download"></i></a>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col intro">
+          <h1>
+            hi there. I am <span class="name">nenad</span><br>
+          </h1>
+          <hr>
+          <p class="title">junior software developer</p>
+          <div class="personality">
+            <table>
+              <tr>
+                <td>
+                  <a href="#">resourceful</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">dedicated</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">organized</a>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td>
+                  <a href="#">adaptive</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">reliable</a>
+                </td>
+              </tr>
+            </table>
           </div>
-          <div class="col about">
-            <p><span class="bracket">{</span><br>
-              <span class="about-text">"name":</span> "nenad jevtić" ,<br>
-              <span class="about-text">"nickname":</span> "jevta" , <br>
-              <span class="about-text">"description":</span> "junior software
-              developer" ,<br>
-              <span class="about-text">"social":</span><span class="bracket">{</span>
-              <br>
-              <span class="about-text indent">"linkedIn":</span>
-              <span class="indend"><a
-                  href="https://www.linkedin.com/in/nenad-jevti%C4%87-706774133/" target="_blank">"linkedIn.com/jevtic-nenad"
-                  ,</a></span><br>
-              <span class="about-text indent">"github":</span> <a
-                href="https://github.com/cfex" target="_blank">"github.com/cfex"</a><br>
-              <span class="bracket indent">} ,</span><br>
-              <span class="about-text">"skills" : </span><span class="bracket">[</span><br>
-              <span class="about-text engines">"java" ,</span><br>
-              <span class="about-text engines">"spring boot" : <span class="bracket">[</span></span><br>
-              <span class="about-text engines dep">"hibernate" ,</span><br>
-              <span class="about-text engines dep">"security" ,</span><br>
-              <span class="about-text engines dep">"cloud" ,</span><br>
-              <span class="about-text engines dep">"mvc"</span><br>
-              <span class="bracket indent">] ,</span><br>
-              <span class="about-text engines">"php" ,</span><br>
-              <span class="about-text engines">"laravel" ,</span><br>   
-              <span class="about-text engines">"javascript" ,</span><br>
-              <span class="about-text engines">"html/css/sass" ,</span><br>
-              <span class="about-text engines">"mysql/mongodb"</span><br>
-              <span class="bracket">] ,</span><br>
-              <span class="about-text">"about":</span><span class="bracket">{</span><br>
-              <span class="about-text indent">"from":</span> "serbia" , <br>
-              <span class="about-text indent">"city":</span> "novi sad" , <br>
-              <span class="about-text indent">"years":</span> "24" , <br>
-              <span class="about-text indent">"education":</span> "self-taught" , <br>
-              <span class="about-text indent">"languages":</span> "serbian / english" , <br>
-              <span class="about-text indent">"accomplishments":</span>
-              <span class="bracket">[ </span><br>
-              <span class="about-text accomplishment">"entrepreneur" ,</span><br>
-              <span class="about-text accomplishment">"certified php developer" ,</span><br>
-              <span class="about-text accomplishment">"helped students with java&php"</span><br>
-              <span class="bracket indent">] ,</span><br>
-              <span class="about-text indent">"contact":</span> "jevtic.nnd@gmail.com" <br>
-              <span class="bracket indent">}</span><br>
-              <span class="bracket">}</span>
-          </div>
-              <div class="col description">
-                <div class="col description-image">
-                  <img src="./images/businessman.svg" alt="user">
+          <div class="col projects">
 
-                </div>
-                <br>
-                <div class="col description-text">
-                  <h3>more about me:</h3>    
-                  <p>passionate about <br> <span class="terms">technology</span> & <span class="terms">programming</span>. <br>
-                    always in the mood to acquire new <span class="terms">knowledge</span>, as well as to selflessly share the current.     
-                  </p>
-                </div>
+            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <div id="carouselInner" class="carousel-inner">
 
-                <div class="col testimonials">
-                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="card">
-                          <div class="avatar">
-                            <img src="./images/man2.svg" alt="Card image">  
-                          </div>
-                          <div class="card-body">
-                            <h4 class="card-title">stefan cvetić</h4>
-                            <small>android developer</small>
-                            <div class="social"><a href="https://github.com/imbactbulletz" target="_blank"><i class="fa fa-github fa-lg"></i></a></div>   
-                            <p class="card-text">"nenad is highly communicative, reliable and the kind of person (tech or otherwise) one would want to keep working with!"</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="card">
-                          <div class="avatar">
-                            <img src="./images/man.svg" alt="Card image">
-                          </div>
-                          <div class="card-body">
-                            
-                            <h4 class="card-title">siniša mišković</h4>
-                            <small>web developer at <a href="http://www.sattrakt.rs/" target="_blank">sat-trakt</a></small>
-                            <div class="social"><a href="https://www.linkedin.com/in/siniša-mišković-08aa44144"><i class="fa fa-linkedin fa-lg"></i></a></div>                 
-                            <p class="card-text">"jevta is a great guy, hardworking and always ready to help. it is a pleasure to work with him"</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="card">
-                          <div class="avatar">
-                            <img src="./images/woman.svg" alt="Card image">
-                          </div>
-                          <div class="card-body">
-                            <h4 class="card-title">jovana simić</h4>
-                            <small>IT student & artist</small>
-                            <div class="social"><a href="https://www.facebook.com/chineseepanda" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></div>                        
-                            <p class="card-text">"nenad helped me throughout the semester. I learned a lot from him"</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>             
               </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
-        </div>   
-      </div>     
+        </div>
+        <div class="col about">
+          <p><span class="bracket">{</span><br>
+            <span class="about-text">"name":</span> "nenad jevtić" ,<br>
+            <span class="about-text">"description":</span> "junior software
+            developer" ,<br>
+            <span class="about-text">"social":</span><span class="bracket">{</span>
+            <br>
+            <span class="about-text indent">"linkedIn":</span>
+            <span class="indend"><a href="https://www.linkedin.com/in/nenad-jevti%C4%87-706774133/"
+                target="_blank">"linkedIn.com/jevtic-nenad"
+                ,</a></span><br>
+            <span class="about-text indent">"github":</span> <a href="https://github.com/cfex"
+              target="_blank">"github.com/cfex"</a><br>
+            <span class="bracket indent">} ,</span><br>
+            <span class="about-text">"skills" : </span><span class="bracket">[</span><br>
+            <span class="about-text engines">"java" :</span><span class="bracket">[</span></span><br>
+            <span class="about-text engines dep">"spring boot",</span><br>
+            <span class="about-text engines dep">"hibernate",</span><br>
+            <span class="about-text engines dep">"maven",</span><br>
+            <span class="about-text engines dep">"cloud",</span><br>
+            <span class="about-text engines dep">"jpa"</span><br>
+            <span class="bracket indent">] ,</span><br>
+            <span class="about-text engines">"database" : <span class="bracket">[</span></span><br>
+            <span class="about-text engines dep">"sql" ,</span><br>
+            <span class="about-text engines dep">"sqlite",</span><br>
+            <span class="about-text engines dep">"mysql",</span><br>
+            <span class="about-text engines dep">"mongodb",</span><br>
+            <span class="bracket indent">] ,</span><br>
+            <span class="about-text engines">"php" ,</span><br>
+            <span class="about-text engines">"javascript" ,</span><br>
+            <span class="about-text engines">"html/css/sass" ,</span><br>
+            <span class="bracket">] ,</span><br>
+            <span class="about-text">"about":</span><span class="bracket">{</span><br>
+            <span class="about-text indent">"from":</span> "serbia" , <br>
+            <span class="about-text indent">"city":</span> "novi sad" , <br>
+            <span class="about-text indent">"education":</span> "self-taught" , <br>
+            <span class="about-text indent">"languages":</span> "serbian / english" , <br>
+            <span class="about-text indent">"accomplishments":</span>
+            <span class="bracket">[ </span><br>
+            <span class="about-text accomplishment">"entrepreneur" ,</span><br>
+            <span class="about-text accomplishment">"certified php developer" ,</span><br>
+            <span class="about-text accomplishment">"helped students with java&php"</span><br>
+            <span class="bracket indent">] ,</span><br>
+            <span class="about-text indent">"contact":</span> "jevtic.nnd@gmail.com" <br>
+            <span class="bracket indent">}</span><br>
+            <span class="bracket">}</span>
+        </div>
+        <div class="col description">
+          <div class="col description-image">
+            <img src="./images/businessman.svg" alt="user">
+
+          </div>
+          <br>
+          <div class="col description-text">
+            <h3>about me:</h3>
+            <p>a very <span class="terms">flexible</span> and <span class="terms">persistent</span>
+              person. <span class="terms">passionate</span> about <span class="terms">technology</span> and <span
+                class="terms">programming</span>.
+              always in the mood to learn new things.
+            </p>
+          </div>
+
+          <div class="col testimonials">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card">
+                    <div class="avatar">
+                      <img src="./images/man2.svg" alt="Card image">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">stefan cvetić</h4>
+                      <small>android developer at <a href="https://nistruct.com/" target="_blank">nistruct</a></small>
+                      <div class="social"><a href="https://github.com/imbactbulletz" target="_blank"><i
+                            class="fa fa-github fa-lg"></i></a></div>
+                      <p class="card-text">"nenad is highly communicative, reliable and the kind of person (tech or
+                        otherwise) one would want to keep working with!"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <div class="avatar">
+                      <img src="./images/man.svg" alt="Card image">
+                    </div>
+                    <div class="card-body">
+
+                      <h4 class="card-title">siniša mišković</h4>
+                      <small>web developer at <a href="http://www.sattrakt.rs/" target="_blank">sat-trakt</a></small>
+                      <div class="social">
+                        <a href="https://github.com/sinisa44"><i class="fa fa-github fa-lg"></i></a>
+                      </div>
+                      <p class="card-text">"jevta is a great guy, hardworking and always ready to help. it is a pleasure
+                        to work with him"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <div class="avatar">
+                      <img src="./images/woman.svg" alt="Card image">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">jovana simić</h4>
+                      <small>IT student & artist</small>
+                      <div class="social"><a href="https://www.facebook.com/chineseepanda" target="_blank"><i
+                            class="fa fa-facebook fa-lg"></i></a></div>
+                      <p class="card-text">"nenad helped me throughout the semester. I learned a lot from him"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-          crossorigin="anonymous"></script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-          crossorigin="anonymous"></script>
-        <script
-          src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-          crossorigin="anonymous"></script>
-      </body>
-    </html>
+  </div>
+  </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
+</html>

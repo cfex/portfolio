@@ -2,11 +2,7 @@
   margin-top: 10%;
 }
 .testimonials .card {
-  text-align: center;
   height: 330px;
-  margin-top: 25px;
-  background-color: transparent;
-  border-top: 0;
 }
 .testimonials .card-body {
   padding: 10px;
@@ -35,12 +31,6 @@
   border-radius: 50%;
   bottom: 20%;
   display: block;
-}
-.testimonials .carousel-control-next-icon {
-  display: none;
-}
-.testimonials .carousel-control-prev-icon {
-  display: none;
 }
 
 /*# sourceMappingURL=testimonials.css.map */

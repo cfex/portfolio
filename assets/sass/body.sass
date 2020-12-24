@@ -2,10 +2,33 @@ body
     font-family: 'Roboto', sans-serif
     background-color: #171f34
     color: #fff
+    margin: 0
+    padding: 0
     
+    .background
+        position: absolute
+        display: block
+        top: 0
+        left: 0
+        z-index: 0
+
     a 
-        text-decoration: none
+        text-decoration: underline
         color: #1b9db8
     
     a:hover
         color: #057f97
+
+    .carousel-control-prev,
+    .carousel-control-next
+        width: 10%
+
+        .carousel-control-next-icon,   
+        .carousel-control-prev-icon
+            display: none
+
+    .card
+        text-align: center
+        margin-top: 25px
+        background-color: transparent
+        border: 0

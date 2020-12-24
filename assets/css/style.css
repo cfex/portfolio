@@ -2,13 +2,38 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #171f34;
   color: #fff;
+  margin: 0;
+  padding: 0;
+}
+body .background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 body a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #1b9db8;
 }
 body a:hover {
   color: #057f97;
+}
+body .carousel-control-prev,
+body .carousel-control-next {
+  width: 10%;
+}
+body .carousel-control-prev .carousel-control-next-icon,
+body .carousel-control-prev .carousel-control-prev-icon,
+body .carousel-control-next .carousel-control-next-icon,
+body .carousel-control-next .carousel-control-prev-icon {
+  display: none;
+}
+body .card {
+  text-align: center;
+  margin-top: 25px;
+  background-color: transparent;
+  border: 0;
 }
 
 .intro {
@@ -34,11 +59,46 @@ body a:hover {
 }
 .intro .personality table td {
   margin-left: 0;
-  padding: 10px;
+  padding: 5px;
 }
 .intro .personality img {
   width: 30px;
   height: 30px;
+}
+.intro .personality a {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: #3bc9b6;
+  overflow: hidden;
+  background: linear-gradient(to right, #3bc9b6, #3bc9b6 50%, #fff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+.intro .personality a:hover {
+  background-position: 0 100%;
+}
+.intro .repo-card {
+  text-align: left;
+  height: 200px;
+}
+.intro .repo-card p {
+  padding: 15px;
+}
+.intro .repo-card .updated {
+  color: #1b9db8;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.intro .repo-card a {
+  font-size: 1.2rem;
+  padding: 15px;
+  text-align: left;
 }
 
 .about {
@@ -104,11 +164,7 @@ body a:hover {
   margin-top: 10%;
 }
 .testimonials .card {
-  text-align: center;
   height: 330px;
-  margin-top: 25px;
-  background-color: transparent;
-  border-top: 0;
 }
 .testimonials .card-body {
   padding: 10px;
@@ -137,12 +193,6 @@ body a:hover {
   border-radius: 50%;
   bottom: 20%;
   display: block;
-}
-.testimonials .carousel-control-next-icon {
-  display: none;
-}
-.testimonials .carousel-control-prev-icon {
-  display: none;
 }
 
 .description {

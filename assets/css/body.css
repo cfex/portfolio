@@ -2,13 +2,38 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #171f34;
   color: #fff;
+  margin: 0;
+  padding: 0;
+}
+body .background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 body a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #1b9db8;
 }
 body a:hover {
   color: #057f97;
+}
+body .carousel-control-prev,
+body .carousel-control-next {
+  width: 10%;
+}
+body .carousel-control-prev .carousel-control-next-icon,
+body .carousel-control-prev .carousel-control-prev-icon,
+body .carousel-control-next .carousel-control-next-icon,
+body .carousel-control-next .carousel-control-prev-icon {
+  display: none;
+}
+body .card {
+  text-align: center;
+  margin-top: 25px;
+  background-color: transparent;
+  border: 0;
 }
 
 /*# sourceMappingURL=body.css.map */
